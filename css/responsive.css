@@ -1,3 +1,34 @@
+:root {
+    --font-roboto: "Roboto", sans-serif;
+    --font-roboto-C: "Roboto Condensed", sans-serif;
+    --font-roboto-S: "Roboto Slab", serif;
+    --font-roboto-F: "Roboto Flex", serif;
+    --linear-grad-tt: linear-gradient(to top, #35673A, #609054);
+    --linear-grad-tb-f3: linear-gradient(to bottom, #356037 5%, rgba(0, 0, 0, 0) 15%),
+        url('../assets/fundo3.png');
+    --linear-grad-tb-f1-f3: linear-gradient(to bottom, rgba(0, 0, 0, 0) 95%, #356037 101%),
+        url('../assets/fundo1.png'),
+        url('../assets/fundo3.png');
+    --image-icon-i1: url(../assets/icon1.png);
+    --image-icon-i2: url(../assets/icon2.png);
+    --image-logo-l2: url(../assets/logo2.png);
+    --image-fund-f5: url('../assets/fundo5.png');
+    --image-fund-f4: url('../assets/fundo4.png');
+    --image-fund-f6: url('../assets/fundo6.png');
+    --color-branco: #FFFFFF;
+    --color-branco-marrom: #FDEFCF;
+    --color-verde-folha: #356037;
+    --color-verde-claro: #8AA661;
+    --color-marrom-escuro: #2A1F11;
+    --color-marrom-escuro-trans: #2A1F11a6;
+    --color-marrom-escuro-transb: #2A1F1192;
+    --color-preto-trans: #00000050;
+    --color-marrom-caramelo: #AF5D27;
+    --color-marrom-caramelo-esc: #CA6F32;
+}
+
+
+
 @media (max-height: 730px) {
     .main-section {
         background-position-y: -12px;
@@ -90,14 +121,14 @@
 
 @media (max-width: 480px) {
     .main-section__header {
-        height: 28vh;
+        height: 234.79px;
         display: flex;
         flex-direction: column;
         border-bottom: #543412 7px solid;
     }
 
     .site-header {
-        height: 20vh;
+        height: 167.709px;
         display: flex;
         flex-direction: row;
         width: 90%;
@@ -148,7 +179,7 @@
 
     .main-nav {
         width: 100%;
-        height: 13.5vh;
+        height: 133.204px;
         display: flex;
     }
 
@@ -198,11 +229,11 @@
     .section-sum {
         width: 70%;
         padding: 30px;
-        height: 70vh;
+        height: 586.9815px;
     }
 
     .section-fest {
-        height: 60vh;
+        height: 503.127px;
     }
 
     .a-fest {
@@ -235,7 +266,7 @@
         font-size: 29px;
         width: 117%;
         font-weight: 600;
-        color: #2A1F11;
+        color: var(--color-marrom-escuro);;
     }
 
     .p-ciclePc {
@@ -283,7 +314,7 @@
     .icon-cicle9 {
         background: #CA6F32;
         border-radius: 12px;
-        height: 1.3vh;
+        height: 10.901px;
         width: 8%;
     }
 
@@ -328,12 +359,12 @@
 
     .prod-section {
         width: 100%;
-        height: 255vh;
+        height: 2138.28px;
     }
 
     .prodR__card {
-        min-width: 22vh;
-        height: 46vh;
+        min-width: 184.4799px;
+        height: 385.7307px;
     }
 
     .img-card {
@@ -350,13 +381,13 @@
     }
 
     .comp-section {
-        height: 200vh;
+        height: 1677.09px;
         background-position-x: center;
     }
 
     .section-comp {
         width: 70%;
-        height: 140vh;
+        height: 1173.96px;
         padding: 30px
     }
 
@@ -382,7 +413,7 @@
     }
 
     .h3-drop-shadow {
-        text-shadow: 4px 4px 0 #2A1F11;
+        text-shadow: 4px 4px 0 #2A1F11;;
     }
 
 
@@ -416,22 +447,22 @@
 
     .form {
         width: 90%;
-        height: 92vh;
+        height: 771.4614px;
     }
 
     .form-fieldset:first-child {
-        border-top: 9px solid #2A1F11;
-        height: calc(117vh / 5);
+        border-top: 9px solid var(--color-marrom-escuro);;
+        height: calc(981.09765px / 5);
         margin-top: 60px;
     }
 
     .form-fieldset:nth-child(5) {
-        height: 40vh;
+        height: 335.418px;
     }
 
     .section-form {
         width: 100%;
-        height: 127vh;
+        height: 1064.95215px;
         justify-content: flex-start;
     }
 
@@ -442,13 +473,13 @@
 
     .rod-sect {
         width: 100%;
-        height: 25vh;
+        height: 209.63625px;
         background: #ffe6c5;
         background-size: cover;
         border-radius: 46px 46px 0px 0px;
         display: flex;
         box-shadow: -4px -4px 7px #00000075;
-        color: #2A1F11;
+        color: var(--color-marrom-escuro);;
         position: relative;
         z-index: 3;
         flex-direction: column;
@@ -459,9 +490,9 @@
     }
 
     .rodape {
-        font-family: "Roboto", sans-serif;
+        font-family: var(--font-roboto);
         width: 100%;
-        height: 28vh;
+        height: 234.7926px;
     }
 
     .rod-p {
@@ -499,16 +530,71 @@
         width: 72%;
         padding: 2%;
         margin: 9% 12%;
-        height: 156vh;
+        height: 1308.1302px;
     }
 
     .fest {
         width: 103%;
-        height: 194vh;
+        height: 1626.7773px;
+    }
+
+    .cicle-section {
+        height: 838.545px;
     }
 }
 
+@media (min-height: 840px) {
+    .divisas-cicle {
+        font-family: "Roboto Flex", sans-serif;
+        position: absolute;
+        z-index: 2;
+        top: 3457px;
+    }
 
-@media (min-height: 930px) {
-    
+    .icons-cicle {
+        top: 3452px;
+    }
+
+    .section-cicle {
+        top: 2983px;
+    }
+
+    .cicle-section {
+        background-position-x: 2px;
+    }
+
+    .a-form::after {
+        color: #FDEFCF;
+        position: absolute;
+        transition: all 1s;
+        width: 300px;
+        text-align: center;
+        left: 43px;
+        bottom: -288px;
+    }
+
+    .a-comp::after {
+        color: #FDEFCF;
+        position: absolute;
+        top: 1086px;
+        left: 31px;
+        transition: none;
+    }
+
+        .a-comp:hover::after {
+        color: #FDEFCF;
+        position: absolute;
+        top: 1086px;
+        left: 31px;
+        transition: none;
+    }
+
+    .terra-circular {
+        bottom: -7561px;
+        width: 268px;
+        left: 38%;
+        height: 800px;
+        border-radius: 0;
+        filter: drop-shadow(-4px 0px 7px #00000075);
+    }
 }

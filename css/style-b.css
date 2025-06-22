@@ -1,3 +1,32 @@
+:root {
+    --font-roboto: "Roboto", sans-serif;
+    --font-roboto-C: "Roboto Condensed", sans-serif;
+    --font-roboto-S: "Roboto Slab", serif;
+    --font-roboto-F: "Roboto Flex", serif;
+    --linear-grad-tt: linear-gradient(to top, #35673A, #609054);
+    --linear-grad-tb-f3: linear-gradient(to bottom, #356037 5%, rgba(0, 0, 0, 0) 15%),
+        url('../assets/fundo3.png');
+    --linear-grad-tb-f1-f3: linear-gradient(to bottom, rgba(0, 0, 0, 0) 95%, #356037 101%),
+        url('../assets/fundo1.png'),
+        url('../assets/fundo3.png');
+    --image-icon-i1: url(../assets/icon1.png);
+    --image-icon-i2: url(../assets/icon2.png);
+    --image-logo-l2: url(../assets/logo2.png);
+    --image-fund-f5: url('../assets/fundo5.png');
+    --image-fund-f4: url('../assets/fundo4.png');
+    --image-fund-f6: url('../assets/fundo6.png');
+    --color-branco: #FFFFFF;
+    --color-branco-marrom: #FDEFCF;
+    --color-verde-folha: #356037;
+    --color-verde-claro: #8AA661;
+    --color-marrom-escuro: #2A1F11;
+    --color-marrom-escuro-trans: #2A1F11a6;
+    --color-marrom-escuro-transb: #2A1F1192;
+    --color-preto-trans: #00000050;
+    --color-marrom-caramelo: #AF5D27;
+    --color-marrom-caramelo-esc: #CA6F32;
+}
+
 .prod-section {
     width: 100%;
     height: 212vh;
@@ -8,7 +37,7 @@
     align-items: center;
     justify-content: center;
     background-position-y: start;
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: var(--font-roboto-C);
     flex-direction: column;
 
 }
@@ -79,7 +108,7 @@
 }
 
 .comp-section {
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: var(--font-roboto-C);
     width: 100%;
     height: 100vh;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 95%, #356037 101%),
@@ -122,7 +151,7 @@
     left: 0;
     font-size: 130px;
     font-weight: 900;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-roboto);
     color: transparent;
     text-shadow: 6px 6px 0 #2A1F11;
     z-index: 0;
@@ -134,7 +163,7 @@
     left: 0;
     font-size: 130px;
     font-weight: 900;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-roboto);
     background: #FFE1B9;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -146,7 +175,7 @@
     position: relative;
     font-size: 130px;
     font-weight: 900;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-roboto);
     background: linear-gradient(to top, #A94C10, #C9681C);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -155,7 +184,7 @@
 }
 
 .h4-comp {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-roboto);
     font-size: 30px;
     font-weight: 300;
 }
@@ -169,7 +198,7 @@
 }
 
 .a-comp {
-    background: #2A1F11;
+    background: var(--color-marrom-escuro);;
     border-radius: 15px;
     font-weight: 500;
     padding: 15px;
@@ -178,7 +207,7 @@
     text-decoration: none;
     content: "Fechar Compromisso!";
     margin-top: 30px;
-    box-shadow: 5px 6px 12px #2a1f11a6;
+    box-shadow: 5px 6px 12px var(--color-marrom-escuro-trans);
 }
 
 .a-comp {
@@ -230,7 +259,7 @@
     position: relative;
     top: 20px;
     border-radius: 21px;
-    box-shadow: 2px 2px 4px #8aa66151;
+    box-shadow: 2px 2px 4px var(--color-verde-claro)51;
 }
 
 .section-form {
@@ -243,15 +272,15 @@
     align-items: center;
     justify-content: center;
     background-position-y: start;
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: var(--font-roboto-C);
     flex-direction: column;
 }
 
 .form {
     width: 60%;
     height: 92vh;
-    font-family: "Roboto", sans-serif;
-    color: #2A1F11;
+    font-family: var(--font-roboto);
+    color: var(--color-marrom-escuro);;
     position: relative;
     z-index: 3;
 }
@@ -267,7 +296,7 @@
 
 .form-fieldset:first-child {
 
-    border-top: 9px solid #2A1F11;
+    border-top: 9px solid var(--color-marrom-escuro);;
     height: calc(70vh / 5);
     display: flex;
     flex-direction: column;
@@ -305,12 +334,12 @@
     font-size: 19px;
     font-weight: 500;
     border: none;
-    border-bottom: #2A1F11 2px solid;
+    border-bottom: var(--color-marrom-escuro) 2px solid;
     margin-top: 2px
 }
 
 .form-text::placeholder {
-    color: #2a1f1192;
+    color: var(--marrom---color-marrom-escuro-transb);;
 }
 
 .form-fieldset:nth-child(5) {
@@ -343,7 +372,7 @@
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    background-color: #2A1F11;
+    background-color: var(--color-marrom-escuro);;
     display: inline-block;
     margin-left: 10px;
     margin-right: 5px;
@@ -374,7 +403,7 @@
 .escolha-form input:checked+label:before {
     background-color: white;
     box-sizing: border-box;
-    border: 5px solid #2A1F11;
+    border: 5px solid var(--color-marrom-escuro);;
     padding: 4px;
     width: 22px;
     height: 22px;
@@ -386,7 +415,7 @@
 }
 
 .a-form {
-    background: #2A1F11;
+    background: var(--color-marrom-escuro);
     border-radius: 15px;
     font-weight: 500;
     padding: 15px;
@@ -394,7 +423,7 @@
     color: #FDEFCF;
     text-decoration: none;
     content: "Fechar Compromisso!";
-    box-shadow: 5px 6px 12px #2a1f11a6;
+    box-shadow: 5px 6px 12px #2A1F11;
 }
 
 .a-form {
@@ -437,7 +466,7 @@
 }
 
 .rodape {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-roboto);
 
     width: 100%;
     height: 15vh;
@@ -458,7 +487,7 @@
     justify-content: space-evenly;
     align-items: center;
     box-shadow: -4px -4px 7px #00000075;
-    color: #2A1F11;
+    color: var(--color-marrom-escuro);;
     position: relative;
     z-index: 3;
 }
@@ -470,7 +499,7 @@
 .rod-p {
     font-size: 22px;
     font-weight: 700;
-    color: #2A1F11;
+    color: var(--color-marrom-escuro);;
     margin-right: -31px;
 }
 
@@ -478,7 +507,7 @@
     font-size: 22px;
     font-weight: 600;
     text-decoration: none;
-    color: #2A1F11;
+    color: var(--color-marrom-escuro);;
 
 }
 

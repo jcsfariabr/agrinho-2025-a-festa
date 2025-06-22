@@ -1,10 +1,36 @@
+:root {
+    --font-roboto: "Roboto", sans-serif;
+    --font-roboto-C: "Roboto Condensed", sans-serif;
+    --font-roboto-S: "Roboto Slab", serif;
+    --font-roboto-F: "Roboto Flex", serif;
+    --linear-grad-tt: linear-gradient(to top, #35673A, #609054);
+    --linear-grad-tb-f3: linear-gradient(to bottom, #356037 5%, rgba(0, 0, 0, 0) 15%),
+        url('../assets/fundo3.png');
+    --linear-grad-tb-f1-f3: linear-gradient(to bottom, rgba(0, 0, 0, 0) 95%, #356037 101%),
+        url('../assets/fundo1.png'),
+        url('../assets/fundo3.png');
+    --image-icon-i1: url(../assets/icon1.png);
+    --image-icon-i2: url(../assets/icon2.png);
+    --image-logo-l2: url(../assets/logo2.png);
+    --image-fund-f5: url('../assets/fundo5.png');
+    --image-fund-f4: url('../assets/fundo4.png');
+    --image-fund-f6: url('../assets/fundo6.png');
+    --color-branco: #FFFFFF;
+    --color-branco-marrom: #FDEFCF;
+    --color-verde-folha: #356037;
+    --color-verde-claro: #8AA661;
+    --color-marrom-escuro: #2A1F11;
+    --color-marrom-escuro-trans: #2A1F11a6;
+    --color-marrom-escuro-transb: #2A1F1192;
+    --color-preto-trans: #00000050;
+    --color-marrom-caramelo: #AF5D27;
+    --color-marrom-caramelo-esc: #CA6F32;
+}
+
 .main-section {
     width: 100%;
     height: 130vh;
-    background:
-        linear-gradient(to bottom, rgba(0, 0, 0, 0) 95%, #356037 101%),
-        url('../assets/fundo1.png'),
-        url('../assets/fundo3.png');
+    background: var(--linear-grad-tb-f1-f3);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -12,7 +38,7 @@
 
 .alt-content {
     position: absolute;
-    background: url(../assets/icon1.png);
+    background: var(--image-icon-i1);
     background-repeat: no-repeat;
     background-size: cover;
     width: 51px;
@@ -25,15 +51,15 @@
 
 .alt-content:hover {
     background: none;
-    color: #FFFFFF;
-    font-family: "Roboto Condensed", sans-serif;
+    color: var(--color-branco);
+    font-family: var(--font-roboto-C);
     font-weight: 600;
     height: 50px;
 }
 
 .alt-content2 {
     position: absolute;
-    background: url(../assets/icon2.png);
+    background: var(--image-icon-i2);
     background-repeat: no-repeat;
     background-size: cover;
     width: 51px;
@@ -47,8 +73,8 @@
 
 .alt-content2:hover {
     background: none;
-    color: #356037;
-    font-family: "Roboto Condensed", sans-serif;
+    color: var(--color-verde-folha);
+    font-family: var(--font-roboto-C);
     font-weight: 600;
     height: 50px;
 }
@@ -57,11 +83,12 @@
 .main-section__header {
     width: 100%;
     height: 11vh;
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: var(--font-roboto-C);
     display: flex;
-    color: #2A1F11;
+    color: var(--color-marrom-escuro);
+    ;
     align-items: center;
-    background: #FDEFCF;
+    background: var(--color-branco-marrom);
 }
 
 .site-header {
@@ -115,7 +142,8 @@
 }
 
 .main-nav__link {
-    color: #2A1F11;
+    color: var(--color-marrom-escuro);
+    ;
     text-decoration: none;
     transition: all 0.5s;
     display: flex;
@@ -129,7 +157,8 @@
 .main-nav__div {
     width: 100%;
     height: 0px;
-    background: #2A1F11;
+    background: var(--color-marrom-escuro);
+    ;
     border-radius: 20px;
     transition: all 0.5s;
 }
@@ -167,7 +196,7 @@
     left: 0;
     font-size: 220px;
     font-weight: 900;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-roboto);
     color: transparent;
     text-shadow: 6px 6px 0 #2A1F11;
     z-index: 0;
@@ -179,8 +208,8 @@
     left: 0;
     font-size: 220px;
     font-weight: 900;
-    font-family: "Roboto", sans-serif;
-    background: #8AA661;
+    font-family: var(--font-roboto);
+    background: var(--color-verde-claro);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transform: translate(-3px, -3px);
@@ -191,8 +220,8 @@
     position: relative;
     font-size: 220px;
     font-weight: 900;
-    font-family: "Roboto", sans-serif;
-    background: linear-gradient(to top, #35673A, #609054);
+    font-family: var(--font-roboto);
+    background: var(--linear-grad-tt);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
@@ -211,7 +240,7 @@
     left: 0;
     font-size: 90px;
     font-weight: 600;
-    font-family: "Roboto Slab", serif;
+    font-family: var(--font-roboto-S);
     color: transparent;
     text-shadow: 4px 4px 0 #2A1F11;
     z-index: 0;
@@ -223,8 +252,8 @@
     left: 0;
     font-size: 90px;
     font-weight: 600;
-    font-family: "Roboto Slab", serif;
-    background: #8AA661;
+    font-family: var(--font-roboto-S);
+    background: var(--color-verde-claro);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transform: translate(-2px, -2px);
@@ -235,7 +264,7 @@
     position: relative;
     font-size: 90px;
     font-weight: 600;
-    font-family: "Roboto Slab", serif;
+    font-family: var(--font-roboto-S);
     background: linear-gradient(to bottom, #35673A, #609054);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -246,9 +275,7 @@
 .sumario-section {
     width: 100%;
     height: 90vh;
-    background:
-        linear-gradient(to bottom, #356037 5%, rgba(0, 0, 0, 0) 15%),
-        url('../assets/fundo3.png');
+    background: var(--linear-grad-tb-f3);
     margin-top: -1px;
     display: flex;
     align-items: center;
@@ -264,11 +291,11 @@
     display: flex;
     position: absolute;
     z-index: 1;
-    box-shadow: 5px 6px 12px #00000050;
+    box-shadow: 5px 6px 12px var(--color-preto-trans);
 }
 
 .section-sum__infos {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-roboto);
     width: 50%;
     height: 100%;
     padding-left: 38px;
@@ -283,7 +310,8 @@
 .h3-table {
     font-size: 50px;
     font-weight: 800;
-    color: #2A1F11;
+    color: var(--color-marrom-escuro);
+    ;
     margin-top: 20px;
     margin-bottom: 15px;
 }
@@ -292,7 +320,7 @@
     display: flex;
     font-size: 28px;
     font-weight: 400;
-    color: #2A1F11;
+    color: var(--color-marrom-escuro);
     padding: 15px 0 0 15px;
     transition: all 1s;
     text-decoration: none;
@@ -352,7 +380,7 @@
 .fest-section {
     width: 100%;
     height: 90vh;
-    background: url('../assets/fundo5.png');
+    background: var(--image-fund-f5);
     background-size: cover;
     margin-top: -1px;
     display: flex;
@@ -362,10 +390,10 @@
 }
 
 .section-fest {
-    font-family: "Roboto Flex", sans-serif;
+    font-family: var(--font-roboto-F);
     width: 65%;
     height: 30vh;
-    background: url(../assets/fundo4.png);
+    background: var(--image-fund-f4);
     border-radius: 45px;
     padding: 50px;
     display: flex;
@@ -375,23 +403,25 @@
     text-align: center;
     position: absolute;
     z-index: 1;
-    box-shadow: 5px 6px 12px #00000050;
+    box-shadow: 5px 6px 12px var(--color-preto-trans);
 }
 
 .h3-fest {
     font-size: 43px;
     font-weight: 600;
     padding: 20px;
-    color: #2A1F11;
+    color: var(--color-marrom-escuro);
+    ;
 }
 
 .a-fest {
-    background: #2A1F11;
+    background: var(--color-marrom-escuro);
+    ;
     border-radius: 15px;
     font-weight: 500;
     padding: 15px;
     font-size: 32px;
-    color: #FDEFCF;
+    color: var(--color-branco-marrom);
     text-decoration: none;
     content: "Entrar na Festa!";
 }
@@ -402,7 +432,7 @@
 }
 
 .logo-circular {
-    background: url(../assets/logo2.png);
+    background: var(--image-logo-l2);
     border-radius: 50%;
     width: 700px;
     height: 700px;
@@ -415,7 +445,7 @@
 
 .festa {
     display: inline-block;
-    color: #FDEFCF;
+    color: var(--color-branco-marrom);
     text-decoration: none;
 }
 
@@ -436,7 +466,7 @@
 }
 
 .festa::after {
-    color: #FDEFCF;
+    color: var(--color-branco-marrom);
     position: absolute;
     top: 265px;
     left: 440px;
@@ -447,7 +477,7 @@
 .cicle-section {
     width: 100%;
     height: 100vh;
-    background: url('../assets/fundo6.png');
+    background: var(--image-fund-f6);
     background-size: cover;
     margin-top: -1px;
     display: flex;
@@ -457,7 +487,7 @@
 }
 
 .section-cicle {
-    font-family: "Roboto Flex", sans-serif;
+    font-family: var(--font-roboto-F);
     width: 75%;
     height: 30vh;
     border-radius: 45px;
@@ -476,18 +506,18 @@
     font-size: 43px;
     font-weight: 600;
     padding: 20px;
-    color: #2A1F11;
+    color: var(--color-marrom-escuro);    ;
 }
 
 .divisas-cicle {
-    font-family: "Roboto Flex", sans-serif;
+    font-family: var(--font-roboto-F);
 
     position: absolute;
     z-index: 2;
     top: 3174px;
     width: 100%;
     height: 25vh;
-    background: #AF5D27;
+    background: var(--color-marrom-caramelo);
     border-radius: 24px 24px 0 0;
 
     display: flex;
@@ -497,7 +527,7 @@
 
 .p-cicle {
     text-align: center;
-    color: #FDEFCF;
+    color: var(--color-branco-marrom);
     font-weight: 500;
     font-size: 33px;
     width: 70%;
@@ -517,7 +547,7 @@
 .icon-cicle5,
 .icon-cicle7,
 .icon-cicle9 {
-    background: #CA6F32;
+    background: var(--color-marrom-caramelo-esc);
     border-radius: 12px;
     height: 1.5vh;
     width: 14%;
@@ -535,7 +565,7 @@
 .icon-cicle8 {
     height: 2vh;
     width: 2vh;
-    border: #AF5D27 10px solid;
+    border: var(--color-marrom-caramelo) 10px solid;
     border-radius: 50%;
     position: relative;
     z-index: 1;
@@ -646,13 +676,13 @@
 }
 
 .iconr-p {
-    font-family: "Roboto Flex", sans-serif;
+    font-family: var(--font-roboto-F);
 
     position: relative;
     text-align: center;
     margin-bottom: 15px;
     font-weight: 800;
-    color: #AF5D27;
+    color: var(--color-marrom-caramelo);
 }
 
 .moblie-cab {
