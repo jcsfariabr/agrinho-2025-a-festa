@@ -1,0 +1,514 @@
+@media (max-height: 730px) {
+    .main-section {
+        background-position-y: -12px;
+    }
+
+
+    .section-table__img {
+        position: absolute;
+        margin-top: -10.8vh;
+        margin-left: -25px;
+        width: 600px;
+    }
+
+    .sumario-section {
+        margin-top: -12px;
+    }
+
+    .logo-circular {
+        top: 1194px;
+    }
+
+    .fest-section {
+        height: 104vh;
+    }
+
+    .festa:hover::after {
+        top: 250px;
+    }
+
+    .festa::after {
+        top: 250px;
+    }
+
+    .h3-cicle {
+        margin-top: -360px;
+    }
+
+    .cicle-section {
+        height: 111vh;
+    }
+
+    .divisas-cicle {
+        top: 2977px;
+    }
+
+    .icons-cicle {
+        top: 2931px;
+    }
+
+
+    .icon-cicle1,
+    .icon-cicle3,
+    .icon-cicle5,
+    .icon-cicle7,
+    .icon-cicle9 {
+
+        height: 1.8vh;
+    }
+
+    .icon-cicle2,
+    .icon-cicle4,
+    .icon-cicle6,
+    .icon-cicle8 {
+        height: 2.5vh;
+        width: 2.5vh;
+    }
+
+    .prod-section {
+        height: 235vh;
+    }
+
+    .a-comp:hover::after {
+        top: 335px;
+    }
+
+    .a-comp::after {
+        top: 335px;
+    }
+
+    .rodape {
+        margin-top: -1px;
+    }
+
+    .terra-circular {
+        bottom: -5671px;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+    .main-section__header {
+        height: 28vh;
+        display: flex;
+        flex-direction: column;
+        border-bottom: #543412 7px solid;
+    }
+
+    .site-header {
+        height: 20vh;
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+    }
+
+    .ref {
+        display: none;
+    }
+
+    .site-header__title p {
+        display: none;
+    }
+
+    .moblie-cab {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .moblie-cab p {
+        display: flex;
+    }
+
+    .site-header__title {
+        display: flex;
+        font-size: 40px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .moblie-cab:nth-child(1) {
+        padding-bottom: 3px;
+    }
+
+    .moblie-cab:nth-child(2) p {
+        text-align: center;
+        padding: 0;
+        line-height: 0.9;
+    }
+
+    .site-header__logo {
+        padding: 0 10px;
+        height: 63%;
+    }
+
+    .noneEspaceDif {
+        padding-right: 0px;
+    }
+
+    .main-nav {
+        width: 100%;
+        height: 13.5vh;
+        display: flex;
+    }
+
+    .h1-texto-principal,
+    .h1-inner-shadow,
+    .h1-drop-shadow {
+        font-size: 80px;
+    }
+
+    .h1-inner-shadow {
+        transform: translate(-1.5px, -1.5px);
+    }
+
+    .h1-drop-shadow {
+        text-shadow: 3px 3px 0 #2A1F11;
+    }
+
+    .h2-texto-principal,
+    .h2-inner-shadow,
+    .h2-drop-shadow {
+        margin-top: 10px;
+        font-size: 66px;
+    }
+
+    .h2-inner-shadow {
+        transform: translate(-1.5px, -1.5px);
+    }
+
+    .h2-drop-shadow {
+        text-shadow: 2px 2px 0 #2A1F11;
+    }
+
+    .section-table__img {
+        display: none;
+    }
+
+    .section-sum__infos {
+        width: auto;
+        padding-left: 0;
+        margin-right: 0;
+    }
+
+    .h3-table {
+        margin-top: 0;
+    }
+
+    .section-sum {
+        width: 70%;
+        padding: 30px;
+        height: 70vh;
+    }
+
+    .section-fest {
+        height: 60vh;
+    }
+
+    .a-fest {
+        width: 120%;
+    }
+
+    .festa::after {
+        content: "🎉 Entrar na Festa! 🎉";
+        transition: content 0.3s ease;
+    }
+
+    .festa:hover::after {
+        content: "🎉 Entrar na Festa! 🎉";
+        transition: content 0.3s ease;
+    }
+
+    .festa::after {
+        color: #FDEFCF;
+        position: absolute;
+        top: 521px;
+        left: 3px;
+        width: 100%;
+    }
+
+    .cicle-section {
+        background-position-x: -43px;
+    }
+
+    .h3-cicle {
+        font-size: 29px;
+        width: 117%;
+        font-weight: 600;
+        color: #2A1F11;
+    }
+
+    .p-ciclePc {
+        display: none;
+    }
+
+    .p-cicleCel {
+        display: block;
+        text-align: center;
+        color: #FDEFCF;
+        font-weight: 500;
+        font-size: 33px;
+        width: 90%;
+    }
+
+    .divisas-cicle {
+        margin-top: 51px;
+    }
+
+    .icon-cicle2,
+    .icon-cicle4,
+    .icon-cicle6,
+    .icon-cicle8 {
+        height: 12px;
+        width: 13px;
+        border: #AF5D27 7px solid;
+        border-radius: 50%;
+        position: relative;
+        z-index: 1;
+        margin: 7px;
+    }
+
+    .iconrs-cicle {
+        top: -80px;
+    }
+
+    .icons-cicle {
+        top: 3183px;
+    }
+
+    .icon-cicle1,
+    .icon-cicle3,
+    .icon-cicle5,
+    .icon-cicle7,
+    .icon-cicle9 {
+        background: #CA6F32;
+        border-radius: 12px;
+        height: 1.3vh;
+        width: 8%;
+    }
+
+    .icon-cicle2~.icon-cicle3 {
+        position: relative;
+        top: 0;
+    }
+
+    .icon-cicle4~.icon-cicle5 {
+        position: relative;
+        top: 0;
+    }
+
+    .icon-cicle6~.icon-cicle7 {
+        position: relative;
+        top: 0;
+    }
+
+    .icon-cicle8~.icon-cicle9 {
+        position: relative;
+        top: 0;
+    }
+
+    .section-prodR {
+        width: 100%;
+    }
+
+    .section-prodR__sect {
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+    }
+
+    .h2-card {
+        text-transform: uppercase;
+        font-size: 41px;
+        text-align: center;
+        margin-top: 200px;
+    }
+
+    .prod-section {
+        width: 100%;
+        height: 255vh;
+    }
+
+    .prodR__card {
+        min-width: 22vh;
+        height: 46vh;
+    }
+
+    .img-card {
+        width: 117.5%;
+    }
+
+    .terra-circular {
+        bottom: -7376px;
+        width: 244px;
+        left: 38%;
+        height: 800px;
+        border-radius: 0;
+        filter: drop-shadow(-4px 0px 7px #00000075);
+    }
+
+    .comp-section {
+        height: 200vh;
+        background-position-x: center;
+    }
+
+    .section-comp {
+        width: 70%;
+        height: 140vh;
+        padding: 30px
+    }
+
+    .h3-cicleCel {
+        display: inline-block;
+    }
+
+    .h3-ciclePc {
+        display: none;
+    }
+
+    .h3-texto-principal,
+    .h3-inner-shadow,
+    .h3-drop-shadow {
+        text-align: center;
+        font-size: 55px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .h3-comp {
+        top: -602px;
+    }
+
+    .h3-drop-shadow {
+        text-shadow: 4px 4px 0 #2A1F11;
+    }
+
+
+    .a-comp::after {
+        color: #FDEFCF;
+        position: absolute;
+        top: 1130px;
+        left: 19px;
+        width: 301px;
+    }
+
+    .a-comp:hover::after {
+        content: "Fechar o Compromisso!";
+        top: 1130px;
+        left: 19px;
+        width: 301px;
+        animation: fadeOut 1s ease 0s 1 normal forwards;
+    }
+
+    .logo-circular {
+        background: url(../assets/logo2.png);
+        border-radius: 50%;
+        width: 700px;
+        height: 700px;
+        background-size: contain;
+        position: absolute;
+        z-index: 0;
+        top: 1516px;
+        left: -311px;
+    }
+
+    .form {
+        width: 90%;
+        height: 92vh;
+    }
+
+    .form-fieldset:first-child {
+        border-top: 9px solid #2A1F11;
+        height: calc(117vh / 5);
+        margin-top: 60px;
+    }
+
+    .form-fieldset:nth-child(5) {
+        height: 40vh;
+    }
+
+    .section-form {
+        width: 100%;
+        height: 127vh;
+        justify-content: flex-start;
+    }
+
+    .form-description-ul li:before {
+        content: '';
+        min-width: 7px;
+    }
+
+    .rod-sect {
+        width: 100%;
+        height: 25vh;
+        background: #ffe6c5;
+        background-size: cover;
+        border-radius: 46px 46px 0px 0px;
+        display: flex;
+        box-shadow: -4px -4px 7px #00000075;
+        color: #2A1F11;
+        position: relative;
+        z-index: 3;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        align-content: center;
+        text-align: center;
+    }
+
+    .rodape {
+        font-family: "Roboto", sans-serif;
+        width: 100%;
+        height: 28vh;
+    }
+
+    .rod-p {
+        margin-right: 0px;
+    }
+
+    .a-form::after {
+        content: "Compromisso Fechado!";
+        transition: content 0.3s ease;
+    }
+
+    .a-form:hover::after {
+        content: "Compromisso Fechado!";
+        width: 300px;
+        text-align: center;
+        left: 26px;
+    }
+
+    .a-form {
+        color: transparent;
+    }
+
+    .a-form::after {
+        color: #FDEFCF;
+        position: absolute;
+        transition: all 1s;
+        width: 300px;
+        text-align: center;
+        left: 29px;
+        bottom: -253px;
+    }
+
+    .submit-main {
+        z-index: 0;
+        width: 72%;
+        padding: 2%;
+        margin: 9% 12%;
+        height: 156vh;
+    }
+
+    .fest {
+        width: 103%;
+        height: 194vh;
+    }
+}
+
+
+@media (min-height: 930px) {
+    
+}
