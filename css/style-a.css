@@ -296,7 +296,7 @@
 
 .section-sum__infos {
     font-family: var(--font-roboto);
-    width: 50%;
+    width: 49%;
     height: 100%;
     padding-left: 38px;
     margin-right: -38px;
@@ -373,7 +373,7 @@
 .section-table__img {
     position: absolute;
     margin-top: -20px;
-    margin-left: -25px;
+    margin-left: -16px;
     width: 600px;
 }
 
@@ -506,6 +506,7 @@
     font-size: 43px;
     font-weight: 600;
     padding: 20px;
+    width: 1200px;
     color: var(--color-marrom-escuro);    ;
 }
 

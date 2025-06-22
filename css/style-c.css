@@ -74,7 +74,7 @@
     width: 72%;
     padding: 2%;
     margin: 9% 12%;
-    height: 45vh;
+    height: 48vh;
 }
 
 .a-back {
@@ -95,4 +95,9 @@
 .h-submit {
     font-weight: 400;
     width: 96%;
+    text-align: left;
+}
+
+.li-submit:nth-child(5), .li-submit:nth-child(6), .li-submit:nth-child(7) {
+    padding-left: 30px;
 }
