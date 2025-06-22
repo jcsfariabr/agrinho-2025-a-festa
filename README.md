@@ -1,6 +1,6 @@
 
 # 🎉🌾🏙️ A Festa entre o Campo e a Cidade
-> Versão Atual: 1.2.1
+> Versão Atual: 1.2.2
 
 > Uma celebração interativa sobre a conexão, a interdependência e o compromisso entre quem planta e quem consome, quem vive no campo e quem vive na cidade.
 > Projeto realizado para o programa Agrinho 2025.
