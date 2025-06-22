@@ -2,6 +2,20 @@
 # 🎉🌾🏙️ A Festa entre o Campo e a Cidade
 
 > Uma celebração interativa sobre a conexão, a interdependência e o compromisso entre quem planta e quem consome, quem vive no campo e quem vive na cidade.
+> Projeto realizado para o programa Agrinho 2025.
+
+---
+
+## Informações do Criador:
+
+- **Nome do Aluno**: Julio Cesar Siqueira Faria;
+- **Turma**: 2º Ano A;
+- **Componente Curricular**: Matemática II;
+- **Nome do Colégio**: Colégio Estadual Vila Alta - CEVA;
+- **Núcleo Regional de Educação**: NRE Umuarama;
+- **Cidade**: Alto Paraíso - Paraná;
+- **Programa**: Projeto Agrinho 2025;
+- **Tema**: Festejando a Conexão Campo e Cidade;
 
 ---
 
