@@ -339,7 +339,7 @@
 }
 
 .form-text::placeholder {
-    color: var(--marrom---color-marrom-escuro-transb);;
+    color: var(--color-marrom-escuro-transb);;
 }
 
 .form-fieldset:nth-child(5) {
